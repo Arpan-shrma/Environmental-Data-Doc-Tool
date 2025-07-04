@@ -14,6 +14,23 @@ This tool was created to address the challenge of maintaining consistent documen
 - **Pattern Detection**: Automatically identifies temporal data, coordinates, and common environmental variables
 - **Search & Organization**: Filter and manage multiple datasets with persistent browser storage
 
+## File Structure
+```bash
+environmental-data-documentation-tool/
+├── README.md
+├── package.json
+├── .gitignore
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   └── components/
+│       └── EnvironmentalDataDocTool.jsx
+└── public/
+    └── index.html
+```
+
 ## Installation
 
 ### Prerequisites
